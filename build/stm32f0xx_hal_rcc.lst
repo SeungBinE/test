@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
   30:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       (+) Configure the clock source(s) for peripherals whose clocks are not
   31:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           derived from the System clock (RTC, ADC, I2C, USART, TIM, USB FS, etc..)
   32:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 2
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 2
 
 
   33:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****                       ##### RCC Limitations #####
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
   87:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** #define MCO1_CLK_ENABLE()     __HAL_RCC_GPIOA_CLK_ENABLE()
   88:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** #define MCO1_GPIO_PORT        GPIOA
   89:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** #define MCO1_PIN              GPIO_PIN_8
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 3
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 3
 
 
   90:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  144:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       (#) CSS (Clock security system), once enable using the macro __HAL_RCC_CSS_ENABLE()
  145:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           and if a HSE clock failure occurs(HSE used directly or through PLL as System 
  146:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           clock source), the System clocks automatically switched to HSI and an interrupt
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 4
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 4
 
 
  147:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           is generated if enabled. The interrupt is linked to the Cortex-M0 NMI 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  201:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *            - All interrupts disabled
  202:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *            - All interrupt and reset flags cleared
  203:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   * @note   This function does not modify the configuration of the
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 5
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 5
 
 
  204:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *            - Peripheral clocks
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
   63 001a FFF7FEFF 		bl	HAL_GetTick
   64              	.LVL3:
   65              		.loc 1 221 24 discriminator 1 view .LVU11
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 6
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 6
 
 
   66 001e 001B     		subs	r0, r0, r4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  268:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
  269:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   /* Reset CFGR2 register */
  270:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   CLEAR_REG(RCC->CFGR2);
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 7
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 7
 
 
  271:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  106              		.loc 1 235 14 view .LVU24
  107 004a 0324     		movs	r4, #3
  108              	.LVL7:
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 8
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 8
 
 
  235:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  258:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   {
  151              		.loc 1 258 42 view .LVU37
  258:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 9
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 9
 
 
  152              		.loc 1 258 9 is_stmt 0 view .LVU38
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  193 00ac 00100240 		.word	1073876992
  194 00b0 0CF8FFF0 		.word	-251660276
  195 00b4 88130000 		.word	5000
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 10
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 10
 
 
  196 00b8 00000000 		.word	SystemCoreClock
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  232              		.loc 1 302 3 view .LVU56
  303:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
  304:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   /* Check Null pointer */
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 11
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 11
 
 
  305:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   if(RCC_OscInitStruct == NULL)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  328:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     else
  329:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     {
  330:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       /* Set the new HSE configuration ---------------------------------------*/
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 12
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 12
 
 
  331:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       __HAL_RCC_HSE_CONFIG(RCC_OscInitStruct->HSEState);
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  334:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****        /* Check the HSE State */
  335:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       if(RCC_OscInitStruct->HSEState != RCC_HSE_OFF)
  336:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       {
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 13
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 13
 
 
  337:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****         /* Get Start Tick */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  324              		.loc 1 374 13 view .LVU89
  325 006e 974B     		ldr	r3, .L127
  326 0070 5A68     		ldr	r2, [r3, #4]
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 14
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 14
 
 
  327 0072 0C23     		movs	r3, #12
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  355              		.loc 1 400 51 view .LVU98
  356              		.loc 1 400 15 is_stmt 0 view .LVU99
  357 0092 8E4B     		ldr	r3, .L127
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 15
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 15
 
 
  358 0094 1B68     		ldr	r3, [r3]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  399              	.L29:
  341:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****         {
  400              		.loc 1 341 51 view .LVU115
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 16
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 16
 
 
  341:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****         {
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  331:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       
  444              		.loc 1 331 7 discriminator 7 view .LVU127
  445 00fa 1968     		ldr	r1, [r3]
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 17
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 17
 
 
  446 00fc 8022     		movs	r2, #128
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  486 0126 DB03     		lsls	r3, r3, #15
  487 0128 A7D4     		bmi	.L35
  488              	.L34:
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 18
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 18
 
 
  377:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  428:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     }
  429:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   }
  430:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   /*------------------------------ LSI Configuration -------------------------*/ 
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 19
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 19
 
 
  431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   if(((RCC_OscInitStruct->OscillatorType) & RCC_OSCILLATORTYPE_LSI) == RCC_OSCILLATORTYPE_LSI)
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  550 016e FFF7FEFF 		bl	HAL_GetTick
  551              	.LVL30:
  552              		.loc 1 448 27 discriminator 1 view .LVU164
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 20
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 20
 
 
  553 0172 401B     		subs	r0, r0, r5
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  595              		.loc 1 422 15 is_stmt 0 view .LVU176
  596 01a6 FFF7FEFF 		bl	HAL_GetTick
  597              	.LVL34:
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 21
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 21
 
 
  422:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           {
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  634 01d0 401B     		subs	r0, r0, r5
  635              		.loc 1 465 11 discriminator 1 view .LVU190
  636 01d2 0228     		cmp	r0, #2
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 22
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 22
 
 
  637 01d4 F6D9     		bls	.L46
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  672              		.loc 1 484 7 view .LVU203
  673 01f6 DB69     		ldr	r3, [r3, #28]
  674 01f8 0B40     		ands	r3, r1
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 23
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 23
 
 
  675 01fa 0193     		str	r3, [sp, #4]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  707 021a 1A62     		str	r2, [r3, #32]
  708              		.loc 1 506 5 discriminator 4 view .LVU215
  709 021c 1A6A     		ldr	r2, [r3, #32]
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 24
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 24
 
 
  710 021e 0331     		adds	r1, r1, #3
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  753              	.LVL48:
  754              	.L118:
  755              		.loc 1 506 5 is_stmt 1 discriminator 1 view .LVU227
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 25
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 25
 
 
  756 0252 1E4A     		ldr	r2, .L127
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  798              	.L55:
  506:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     /* Check the LSE State */
  799              		.loc 1 506 5 is_stmt 1 discriminator 5 view .LVU243
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 26
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 26
 
 
  800 0280 052B     		cmp	r3, #5
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  840              		.loc 1 528 49 view .LVU253
  841 02b6 9B07     		lsls	r3, r3, #30
  842 02b8 12D5     		bpl	.L60
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 27
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 27
 
 
  529:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       {
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  547:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     /* Check the parameters */
  548:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     assert_param(IS_RCC_HSI14(RCC_OscInitStruct->HSI14State));
  879              		.loc 1 548 5 is_stmt 1 view .LVU265
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 28
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 28
 
 
  549:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     assert_param(IS_RCC_CALIBRATION_VALUE(RCC_OscInitStruct->HSI14CalibrationValue));
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  901 0304 A169     		ldr	r1, [r4, #24]
  902 0306 C900     		lsls	r1, r1, #3
  903 0308 0B43     		orrs	r3, r1
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 29
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 29
 
 
  904 030a 5363     		str	r3, [r2, #52]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  634:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****         {
  635:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           if((HAL_GetTick() - tickstart) > HSI48_TIMEOUT_VALUE)
  636:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****           {
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 30
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 30
 
 
  637:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****             return HAL_TIMEOUT;
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  926              		.loc 1 670 7 is_stmt 1 view .LVU281
  927              		.loc 1 670 9 is_stmt 0 view .LVU282
  928 0322 022B     		cmp	r3, #2
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 31
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 31
 
 
  929 0324 4FD0     		beq	.L122
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  936              		.loc 1 717 9 view .LVU284
  937              		.loc 1 717 21 is_stmt 0 view .LVU285
  938 0330 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 32
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 32
 
 
  939              	.LVL57:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  558:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
  983              		.loc 1 558 7 view .LVU298
  984 0362 5A6B     		ldr	r2, [r3, #52]
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 33
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 33
 
 
  985 0364 0339     		subs	r1, r1, #3
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1027              	.L67:
  586:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
  1028              		.loc 1 586 7 view .LVU311
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 34
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 34
 
 
  1029 0398 3C4B     		ldr	r3, .L129
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1069              		.loc 1 674 9 view .LVU325
  675:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   
  1070              		.loc 1 675 9 view .LVU326
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 35
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 35
 
 
  678:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****         
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1111 03f4 E16A     		ldr	r1, [r4, #44]
  1112 03f6 0A43     		orrs	r2, r1
  1113 03f8 DA62     		str	r2, [r3, #44]
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 36
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 36
 
 
  693:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****                              RCC_OscInitStruct->PLL.PREDIV,
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1154              		.loc 1 707 20 view .LVU354
  1155 042c 0320     		movs	r0, #3
  1156 042e 1CE0     		b	.L20
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 37
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 37
 
 
  1157              	.L126:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1178 0440 D86A     		ldr	r0, [r3, #44]
  1179              	.LVL78:
  741:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****            (READ_BIT(pll_config2, RCC_CFGR2_PREDIV) != RCC_OscInitStruct->PLL.PREDIV)    ||
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 38
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 38
 
 
  1180              		.loc 1 741 9 is_stmt 1 view .LVU363
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1223              	.LVL83:
  1224              	.L113:
  325:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       }
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 39
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 39
 
 
  1225              		.loc 1 325 16 view .LVU377
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1269 0498 FFFFC2FF 		.word	-3997697
  1270              		.cfi_endproc
  1271              	.LFE41:
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 40
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 40
 
 
  1273              		.section	.text.HAL_RCC_MCOConfig,"ax",%progbits
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  798:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     /* Program the new number of wait states to the LATENCY bits in the FLASH_ACR register */
  799:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     __HAL_FLASH_SET_LATENCY(FLatency);
  800:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 41
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 41
 
 
  801:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     /* Check that the new number of wait states is taken into account to access the Flash
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  855:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       }
  856:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     }
  857:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** #endif /* RCC_CFGR_SWS_HSI48 */
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 42
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 42
 
 
  858:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     /* HSI is selected as System Clock Source */
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  912:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   * @}
  913:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   */
  914:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 43
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 43
 
 
  915:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** /** @defgroup RCC_Exported_Functions_Group2 Peripheral Control functions
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  969:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   @elif STM32F030xC
  970:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *            @arg @ref RCC_MCO1SOURCE_PLLCLK      PLLCLK selected as MCO clock
  971:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   @elif STM32F031x6
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 44
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 44
 
 
  972:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *            @arg @ref RCC_MCO1SOURCE_PLLCLK      PLLCLK selected as MCO clock
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1291              		.cfi_offset 4, -16
  1292              		.cfi_offset 5, -12
  1293              		.cfi_offset 6, -8
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 45
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 45
 
 
  1294              		.cfi_offset 14, -4
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1329              		.loc 1 1036 3 view .LVU407
  1330              		.loc 1 1036 3 view .LVU408
  1331 001c 0B4C     		ldr	r4, .L132
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 46
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 46
 
 
  1332 001e 6369     		ldr	r3, [r4, #20]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1381              		.syntax unified
  1382              		.code	16
  1383              		.thumb_func
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 47
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 47
 
 
  1385              	HAL_RCC_EnableCSS:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1420              		@ args = 0, pretend = 0, frame = 0
  1421              		@ frame_needed = 0, uses_anonymous_args = 0
  1422              		@ link register save eliminated.
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 48
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 48
 
 
 1064:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   CLEAR_BIT(RCC->CR, RCC_CR_CSSON) ;
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
 1093:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   * @note   Each time SYSCLK changes, this function must be called to update the
 1094:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *         right SYSCLK value. Otherwise, any configuration based on this function will be incorre
 1095:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   *         
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 49
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 49
 
 
 1096:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   * @retval SYSCLK frequency
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
 1121:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       prediv = aPredivFactorTable[(uint32_t)(RCC->CFGR2 & RCC_CFGR2_PREDIV) >> RCC_CFGR2_PREDIV_BIT
 1122:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       if ((tmpreg & RCC_CFGR_PLLSRC) == RCC_PLLSOURCE_HSE)
 1123:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       {
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 50
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 50
 
 
 1124:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****         /* HSE used as PLL clock source : PLLCLK = HSE/PREDIV * PLLMUL */
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1491              		.loc 1 1120 34 view .LVU440
  1492 0018 0C48     		ldr	r0, .L145+8
  1493 001a 445C     		ldrb	r4, [r0, r1]
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 51
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 51
 
 
  1494              	.LVL102:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1535              		.align	2
  1536              	.L145:
  1537 0044 00100240 		.word	1073876992
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 52
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 52
 
 
  1538 0048 00127A00 		.word	8000000
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1584 0014 8B42     		cmp	r3, r1
  1585 0016 0AD2     		bcs	.L149
  799:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 53
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 53
 
 
  1586              		.loc 1 799 5 is_stmt 1 view .LVU464
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1628 004a 8B43     		bics	r3, r1
  1629 004c A168     		ldr	r1, [r4, #8]
  1630 004e 0B43     		orrs	r3, r1
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 54
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 54
 
 
  1631 0050 5360     		str	r3, [r2, #4]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1669 0076 FFF7FEFF 		bl	HAL_GetTick
  1670              	.LVL112:
  1671 007a 0600     		movs	r6, r0
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 55
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 55
 
 
  1672              	.LVL113:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1711 00a4 0120     		movs	r0, #1
  1712              	.LVL116:
  835:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****       }
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 56
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 56
 
 
  1713              		.loc 1 835 16 view .LVU508
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1754              		.loc 1 896 3 is_stmt 1 view .LVU521
  896:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   {
  1755              		.loc 1 896 25 is_stmt 0 view .LVU522
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 57
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 57
 
 
  1756 00d4 2368     		ldr	r3, [r4]
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  909:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
  1797              		.loc 1 909 1 view .LVU536
  1798              		@ sp needed
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 58
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 58
 
 
  1799              	.LVL121:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1847              	HAL_RCC_GetHCLKFreq:
  1848              	.LFB47:
 1163:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 59
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 59
 
 
 1164:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** /**
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1883              	.LCFI7:
  1884              		.cfi_def_cfa_offset 8
  1885              		.cfi_offset 4, -8
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 60
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 60
 
 
  1886              		.cfi_offset 14, -4
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
 1199:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   /* Check the parameters */
 1200:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   assert_param(RCC_OscInitStruct != NULL);
  1929              		.loc 1 1200 3 view .LVU559
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 61
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 61
 
 
 1201:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1957              	.L188:
 1228:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   }
 1229:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   else
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 62
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 62
 
 
 1230:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   {
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  1988 003a 0123     		movs	r3, #1
  1989 003c C361     		str	r3, [r0, #28]
  1990              	.L193:
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 63
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 63
 
 
 1254:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   }
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
 1280:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****     RCC_OscInitStruct->PLL.PLLState = RCC_PLL_ON;
  2019              		.loc 1 1280 5 is_stmt 1 view .LVU598
  2020              		.loc 1 1280 37 is_stmt 0 view .LVU599
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 64
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 64
 
 
  2021 005c 0223     		movs	r3, #2
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  2062              		.loc 1 1217 5 is_stmt 1 view .LVU616
 1217:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   }
  2063              		.loc 1 1217 33 is_stmt 0 view .LVU617
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 65
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 65
 
 
  2064 0088 0123     		movs	r3, #1
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
 1267:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   }
  2105              		.loc 1 1267 5 is_stmt 1 view .LVU631
 1267:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   }
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 66
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 66
 
 
  2106              		.loc 1 1267 35 is_stmt 0 view .LVU632
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
 1305:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   /* Set all possible values for the Clock type parameter --------------------*/
 1306:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   RCC_ClkInitStruct->ClockType = RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1;
  2145              		.loc 1 1306 3 view .LVU639
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 67
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 67
 
 
  2146              		.loc 1 1306 32 is_stmt 0 view .LVU640
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  2188              	.L201:
  2189 0030 00100240 		.word	1073876992
  2190 0034 00200240 		.word	1073881088
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 68
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 68
 
 
  2191              		.cfi_endproc
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  2219              		.thumb_func
  2221              	HAL_RCC_NMI_IRQHandler:
  2222              	.LFB51:
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 69
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 69
 
 
 1326:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c ****   /* Check RCC CSSF flag  */
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  2269              		.align	2
  2272              	aPLLMULFactorTable.1:
  2273 0000 02030405 		.ascii	"\002\003\004\005\006\007\010\011\012\013\014\015\016"
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 70
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 70
 
 
  2273      06070809 
@@ -4156,55 +4156,55 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 1
  2283              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h"
  2284              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h"
  2285              		.file 10 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s 			page 71
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s 			page 71
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_hal_rcc.c
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:19     .text.HAL_RCC_DeInit:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:25     .text.HAL_RCC_DeInit:00000000 HAL_RCC_DeInit
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:193    .text.HAL_RCC_DeInit:000000ac $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:205    .text.HAL_RCC_OscConfig:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:211    .text.HAL_RCC_OscConfig:00000000 HAL_RCC_OscConfig
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:859    .text.HAL_RCC_OscConfig:000002cc $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:867    .text.HAL_RCC_OscConfig:000002e0 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1266   .text.HAL_RCC_OscConfig:0000048c $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1274   .text.HAL_RCC_MCOConfig:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1280   .text.HAL_RCC_MCOConfig:00000000 HAL_RCC_MCOConfig
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1373   .text.HAL_RCC_MCOConfig:0000004c $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1379   .text.HAL_RCC_EnableCSS:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1385   .text.HAL_RCC_EnableCSS:00000000 HAL_RCC_EnableCSS
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1405   .text.HAL_RCC_EnableCSS:00000010 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1410   .text.HAL_RCC_DisableCSS:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1416   .text.HAL_RCC_DisableCSS:00000000 HAL_RCC_DisableCSS
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1435   .text.HAL_RCC_DisableCSS:0000000c $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1442   .text.HAL_RCC_GetSysClockFreq:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1448   .text.HAL_RCC_GetSysClockFreq:00000000 HAL_RCC_GetSysClockFreq
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1537   .text.HAL_RCC_GetSysClockFreq:00000044 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2272   .rodata.aPLLMULFactorTable.1:00000000 aPLLMULFactorTable.1
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2265   .rodata.aPredivFactorTable.0:00000000 aPredivFactorTable.0
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1545   .text.HAL_RCC_ClockConfig:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1551   .text.HAL_RCC_ClockConfig:00000000 HAL_RCC_ClockConfig
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1831   .text.HAL_RCC_ClockConfig:0000011c $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1841   .text.HAL_RCC_GetHCLKFreq:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1847   .text.HAL_RCC_GetHCLKFreq:00000000 HAL_RCC_GetHCLKFreq
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1865   .text.HAL_RCC_GetHCLKFreq:00000008 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1870   .text.HAL_RCC_GetPCLK1Freq:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1876   .text.HAL_RCC_GetPCLK1Freq:00000000 HAL_RCC_GetPCLK1Freq
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1909   .text.HAL_RCC_GetPCLK1Freq:00000018 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1915   .text.HAL_RCC_GetOscConfig:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:1921   .text.HAL_RCC_GetOscConfig:00000000 HAL_RCC_GetOscConfig
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2119   .text.HAL_RCC_GetOscConfig:000000c0 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2124   .text.HAL_RCC_GetClockConfig:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2130   .text.HAL_RCC_GetClockConfig:00000000 HAL_RCC_GetClockConfig
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2189   .text.HAL_RCC_GetClockConfig:00000030 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2195   .text.HAL_RCC_CSSCallback:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2201   .text.HAL_RCC_CSSCallback:00000000 HAL_RCC_CSSCallback
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2215   .text.HAL_RCC_NMI_IRQHandler:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2221   .text.HAL_RCC_NMI_IRQHandler:00000000 HAL_RCC_NMI_IRQHandler
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2256   .text.HAL_RCC_NMI_IRQHandler:00000018 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2262   .rodata.aPredivFactorTable.0:00000000 $d
-C:\Users\vs464\AppData\Local\Temp\ccEh76oV.s:2269   .rodata.aPLLMULFactorTable.1:00000000 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:19     .text.HAL_RCC_DeInit:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:25     .text.HAL_RCC_DeInit:00000000 HAL_RCC_DeInit
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:193    .text.HAL_RCC_DeInit:000000ac $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:205    .text.HAL_RCC_OscConfig:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:211    .text.HAL_RCC_OscConfig:00000000 HAL_RCC_OscConfig
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:859    .text.HAL_RCC_OscConfig:000002cc $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:867    .text.HAL_RCC_OscConfig:000002e0 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1266   .text.HAL_RCC_OscConfig:0000048c $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1274   .text.HAL_RCC_MCOConfig:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1280   .text.HAL_RCC_MCOConfig:00000000 HAL_RCC_MCOConfig
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1373   .text.HAL_RCC_MCOConfig:0000004c $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1379   .text.HAL_RCC_EnableCSS:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1385   .text.HAL_RCC_EnableCSS:00000000 HAL_RCC_EnableCSS
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1405   .text.HAL_RCC_EnableCSS:00000010 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1410   .text.HAL_RCC_DisableCSS:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1416   .text.HAL_RCC_DisableCSS:00000000 HAL_RCC_DisableCSS
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1435   .text.HAL_RCC_DisableCSS:0000000c $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1442   .text.HAL_RCC_GetSysClockFreq:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1448   .text.HAL_RCC_GetSysClockFreq:00000000 HAL_RCC_GetSysClockFreq
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1537   .text.HAL_RCC_GetSysClockFreq:00000044 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2272   .rodata.aPLLMULFactorTable.1:00000000 aPLLMULFactorTable.1
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2265   .rodata.aPredivFactorTable.0:00000000 aPredivFactorTable.0
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1545   .text.HAL_RCC_ClockConfig:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1551   .text.HAL_RCC_ClockConfig:00000000 HAL_RCC_ClockConfig
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1831   .text.HAL_RCC_ClockConfig:0000011c $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1841   .text.HAL_RCC_GetHCLKFreq:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1847   .text.HAL_RCC_GetHCLKFreq:00000000 HAL_RCC_GetHCLKFreq
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1865   .text.HAL_RCC_GetHCLKFreq:00000008 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1870   .text.HAL_RCC_GetPCLK1Freq:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1876   .text.HAL_RCC_GetPCLK1Freq:00000000 HAL_RCC_GetPCLK1Freq
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1909   .text.HAL_RCC_GetPCLK1Freq:00000018 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1915   .text.HAL_RCC_GetOscConfig:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:1921   .text.HAL_RCC_GetOscConfig:00000000 HAL_RCC_GetOscConfig
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2119   .text.HAL_RCC_GetOscConfig:000000c0 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2124   .text.HAL_RCC_GetClockConfig:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2130   .text.HAL_RCC_GetClockConfig:00000000 HAL_RCC_GetClockConfig
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2189   .text.HAL_RCC_GetClockConfig:00000030 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2195   .text.HAL_RCC_CSSCallback:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2201   .text.HAL_RCC_CSSCallback:00000000 HAL_RCC_CSSCallback
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2215   .text.HAL_RCC_NMI_IRQHandler:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2221   .text.HAL_RCC_NMI_IRQHandler:00000000 HAL_RCC_NMI_IRQHandler
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2256   .text.HAL_RCC_NMI_IRQHandler:00000018 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2262   .rodata.aPredivFactorTable.0:00000000 $d
+C:\Users\vs464\AppData\Local\Temp\cch3dEU8.s:2269   .rodata.aPLLMULFactorTable.1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick
