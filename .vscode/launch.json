@@ -8,7 +8,7 @@
       {
         "name": "cortex-debug",
         "cwd": "${workspaceFolder}",
-        "executable": "D:/Workspace/vscode/test/build/test.elf",
+        "executable": "D:/Workspace/vscode/test/build/test.elf", //빌드 시 표시되는 위치
         "request": "launch",
         "type": "cortex-debug",
         "servertype": "openocd",
@@ -18,7 +18,7 @@
           "D:/tools/OpenOCD-20240813-0.12.0/share/openocd/scripts/interface/stlink.cfg",
           "D:/tools/OpenOCD-20240813-0.12.0/share/openocd/scripts/target/stm32f0x.cfg",
         ],
-        "svdFile": "./STM32F0x1.svd"
+        "svdFile": "./STM32F0x1.svd" //svd file
       }
     ]
   }
