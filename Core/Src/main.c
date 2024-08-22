@@ -89,7 +89,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  uint8_t str[]="Hello World!\n\r";
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -100,7 +100,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
-    HAL_Delay(200);
+    HAL_UART_Transmit_IT(&huart1,str,sizeof(str));
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }

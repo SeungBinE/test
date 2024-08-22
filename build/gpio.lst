@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 1
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 1
   30:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   31:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
   32:Core/Src/gpio.c **** 
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 2
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s 			page 2
 
 
   33:Core/Src/gpio.c **** /* USER CODE END 1 */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 1
   50:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
   51:Core/Src/gpio.c ****   HAL_GPIO_WritePin(GPIOA, LED1_Pin|LED2_Pin, GPIO_PIN_RESET);
   64              		.loc 1 51 3 view .LVU9
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 3
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s 			page 3
 
 
   65 0022 9024     		movs	r4, #144
@@ -174,14 +174,14 @@ ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 1
  107              		.file 4 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f031x6.h"
  108              		.file 5 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h"
  109              		.file 6 "<built-in>"
-ARM GAS  C:\Users\vs464\AppData\Local\Temp\cc85735f.s 			page 4
+ARM GAS  C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\vs464\AppData\Local\Temp\cc85735f.s:19     .text.MX_GPIO_Init:00000000 $t
-C:\Users\vs464\AppData\Local\Temp\cc85735f.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\vs464\AppData\Local\Temp\cc85735f.s:99     .text.MX_GPIO_Init:0000004c $d
+C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s:19     .text.MX_GPIO_Init:00000000 $t
+C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\vs464\AppData\Local\Temp\ccWblFsc.s:99     .text.MX_GPIO_Init:0000004c $d
 
 UNDEFINED SYMBOLS
 memset
