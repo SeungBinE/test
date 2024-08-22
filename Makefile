@@ -58,11 +58,7 @@ Core/Src/system_stm32f0xx.c \
 Core/Src/sysmem.c \
 Core/Src/syscalls.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c \
-Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c \
-System/LED/LED.c \
-Core/Src/gpio.c \
-Core/Src/usart.c
-
+Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c
 
 # ASM sources
 ASM_SOURCES =  \
