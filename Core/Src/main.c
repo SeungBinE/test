@@ -101,7 +101,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
     HAL_UART_Transmit_IT(&huart1,str,sizeof(str));
-    HAL_Delay(500);
+    HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
