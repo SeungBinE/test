@@ -2,8 +2,9 @@
 ADC.ClockPrescaler=ADC_CLOCK_ASYNC_DIV1
 ADC.ContinuousConvMode=ENABLE
 ADC.DiscontinuousConvMode=DISABLE
-ADC.IPParameters=ClockPrescaler,DiscontinuousConvMode,SamplingTime,ContinuousConvMode
-ADC.SamplingTime=ADC_SAMPLETIME_55CYCLES_5
+ADC.IPParameters=ClockPrescaler,DiscontinuousConvMode,SamplingTime,ContinuousConvMode,Resolution
+ADC.Resolution=ADC_RESOLUTION_8B
+ADC.SamplingTime=ADC_SAMPLETIME_239CYCLES_5
 CAD.formats=
 CAD.pinconfig=
 CAD.provider=

@@ -24,7 +24,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,7 +57,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint16_t potVal;
+char data[20];
 /* USER CODE END 0 */
 
 /**
@@ -91,7 +93,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_ADC_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t data;
+  
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -102,9 +104,15 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-    if(HAL_UART_Receive(&huart1,&data,1,HAL_MAX_DELAY) == HAL_OK){
-      HAL_UART_Transmit(&huart1,&data,1,HAL_MAX_DELAY);
-    }
+    HAL_ADC_Start(&hadc);
+    HAL_ADC_PollForConversion(&hadc,100);
+    potVal=HAL_ADC_GetValue(&hadc);
+
+    sprintf(data," ADC Value = %d \n\r", potVal);
+    HAL_UART_Transmit(&huart1,(uint8_t*)data, strlen(data),1000);
+
+    HAL_Delay(100);
+
   }
   /* USER CODE END 3 */
 }
